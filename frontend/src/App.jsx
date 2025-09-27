@@ -1,12 +1,11 @@
 import React from 'react';
-import 
+import Navbar from './components/layouts/navbar'// Import all of Bootstrap’s CSS
+
 
 const App = () => {
-  return (
-    <div>
-      hello world
-    </div>
-  )
+  return <>
+  <Navbar></Navbar>
+  </>
 }
 
 export default App
