@@ -1,11 +1,9 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Footer from "./footer.jsx";
-import ObjectDetection from "../shared/ObjectDetection.jsx";
-import FaceRecognition from "../shared/facerecognition.jsx";
-import CurrencyDetector from "../shared/currencydetector.jsx";
 
-import ColourDetection from "../shared/colourdetect.jsx";
+
+import ColourDetection from "../shared/colour-detection.jsx";
 import Text from "../shared/text.jsx";
 
 
@@ -26,12 +24,8 @@ const  Dashboard = ()=>{
 return <>
    <Text></Text>
   
-   <div id="object-detection">
-        <ObjectDetection />
-      </div>
-   <CurrencyDetector></CurrencyDetector>
-   <BookReader></BookReader>
-   <FaceRecognition></FaceRecognition>
+   
+   
   <ColourDetection/>
 <Footer></Footer>
 </>
