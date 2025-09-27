@@ -1,12 +1,10 @@
+import React from 'react'
 
-
-function App() {
- 
-return (
-    <>
-     
-      
-    </>
+const App = () => {
+  return (
+    <div>
+      hello world
+    </div>
   )
 }
 
