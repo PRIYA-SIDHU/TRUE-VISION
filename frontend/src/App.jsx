@@ -4,9 +4,9 @@ import ContactUs from './components/pages/ContactUs';
 import Navbar from './components/layouts/Navbar';
 import Dashboard from './components/layouts/dashboard';
 import FacePage from './components/backendpages/FacePage'; 
-import Bookmain from './components/backendpages/Bookmain'; 
+
 import Objectpage from './components/backendpages/Objectpage'; 
-import Bookpage from './components/backendpages/BookPage'; 
+
 import Color from './components/backendpages/colorpage'; 
 
 import CurrencyDetector from './components/shared/currencydetector';
