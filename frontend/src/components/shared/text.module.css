@@ -45,7 +45,8 @@ body, html {
   white-space: nowrap;
   font-size: clamp(6rem, 20vw, 20rem);
   font-weight: bold;
-  font-family: Poppins Bold, sans-serif;
+  font-family: "Poppins Bold", sans-serif;
+
 }
 
 .vision span {
