@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Footer from "./footer.jsx";
 
-
+import CurrencyDetector from "../shared/currencydetector.jsx";
 import ColourDetection from "../shared/colour-detection.jsx";
 import Text from "../shared/text.jsx";
 
@@ -23,10 +23,8 @@ const  Dashboard = ()=>{
   
 return <>
    <Text></Text>
+ <CurrencyDetector></CurrencyDetector>
   
-   
-   
-  <ColourDetection/>
 <Footer></Footer>
 </>
 };

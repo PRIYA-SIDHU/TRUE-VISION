@@ -13,7 +13,7 @@ const ColourDetection= () => {
     <div className={styles.left}>
       <img
         src={colourimg}// Replace with your actual image path
-        alt="Lets Find Demo"
+        alt="colourdetection"
         className={styles.demoImage}
       />
     </div>
