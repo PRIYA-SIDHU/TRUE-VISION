@@ -14,9 +14,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Dashboard />} />
-       
-    <Route path="/featured" element={<Dashboard/>} />
-     <Route path="/face" element={<FacePage />} />
+        <Route path="/featured" element={<Dashboard/>} />
+         <Route path="/face" element={<FacePage />} />
        
       
 

@@ -5,6 +5,7 @@ import FaceRecognition from "../shared/facerecognition.jsx";
 import CurrencyDetector from "../shared/currencydetector.jsx";
 import ColourDetection from "../shared/colour-detection.jsx";
 import Text from "../shared/text.jsx";
+import ObjectDetection from "../shared/objectdetection.jsx";
 
 
 const  Dashboard = ()=>{
@@ -23,6 +24,9 @@ const  Dashboard = ()=>{
   
 return <>
    <Text></Text>
+<div id="object-detection">
+     <ObjectDetection />
+</div>
    <FaceRecognition></FaceRecognition>
  <CurrencyDetector></CurrencyDetector>
   

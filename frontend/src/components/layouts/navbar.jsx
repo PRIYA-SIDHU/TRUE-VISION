@@ -6,7 +6,7 @@ import Imglogo from "../../assets/logo.png"
 const links = [
   { name: 'Home', to: '/' },
   { name: 'About Us', to: '/about' },        
-  { name: 'Features', to: '/featured#object-detection' },    // keep hash link as anchor
+  { name: 'Featured', to: '/featured#facedetection' },    // keep hash link as anchor
   { name: 'Contact Us', to: '/contact' },     
 ];
 
