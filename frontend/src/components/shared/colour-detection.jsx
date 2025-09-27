@@ -23,7 +23,11 @@ const ColourDetection= () => {
     <div className={styles.right}>
       <h1 className={styles.bigTitle}>Colour Detection</h1>
       <p className={styles.description}>
-        Explore the world of discovery with Lets Find. Search for interesting facts, uncover hidden details, and expand your knowledge through an interactive and engaging experience tailored for curious minds.
+  Welcome to the color detection experience!
+Click the button to activate your camera and give a voice command to detect any color.
+Simply say the color you want, and watch as the system identifies and highlights it in real time.
+See colors come alive on your screen with instant, interactive feedback.
+Dive into an intuitive way to explore colors around you, right from your browser.
       </p>
        <button className={styles.ctaButton}
         onClick={() => navigate("/color")}>

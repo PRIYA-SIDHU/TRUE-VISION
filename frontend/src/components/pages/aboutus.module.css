@@ -126,11 +126,11 @@ body {
   max-width: 220px;
 }
 /* Place bottom row two members centered using grid-area */
-.teamMember:nth-child(4) {
-  grid-column: 1 / 3; /* put 4th member in 2nd column */
+.teamMember:nth-child(3) {
+  grid-column: 1/ 3; /* put 4th member in 2nd column */
   grid-row: 2 / 3;
 }
-.teamMember:nth-child(5) {
+.teamMember:nth-child(4) {
   grid-column: 2 / 4; /* put 5th member in 3rd column */
   grid-row: 2 / 3;
 }

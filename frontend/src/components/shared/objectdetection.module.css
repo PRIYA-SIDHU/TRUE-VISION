@@ -1,8 +1,11 @@
-.title {
-  font-family: 'VT323', monospace;
-  font-size: 2.4rem;
-  margin-bottom: 0.6rem;
-  color: #ffee58;
+.bigTitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+  color: #ffd600;
+  margin-bottom: 0.7rem;
+  font-weight: bold;
+  line-height: 1.14;
+  letter-spacing: 1.3px;
 }
 
 .subtitle {
