@@ -1,10 +1,10 @@
-// Navbar.jsx
+
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // added for navigation
+import { Link } from 'react-router-dom'; 
 import styles from './Navbar.module.css';
 import Imglogo from "../../assets/logo.png"
 
-// Enhanced SVG icons for hover effect, updated About and Contact icons
+
 const HoverIcons = {
   Home: (
     <svg width="20" height="20" fill="#37fc9c" viewBox="0 0 24 24" aria-hidden="true">
@@ -35,9 +35,9 @@ const HoverIcons = {
 
 const links = [
   { name: 'Home', to: '/' },
-  { name: 'About Us', to: '/about' },         // React Router path for about page
-  { name: 'Features', to: '/featured#object-detection' },    // keep hash link as anchor
-  { name: 'Contact Us', to: '/contact' },     // React Router path for contact page
+  { name: 'About Us', to: '/about' },        
+  { name: 'Features', to: '/featured#object-detection' },  
+  { name: 'Contact Us', to: '/contact' },    
 ];
 
 const Navbar = () => {
@@ -85,7 +85,7 @@ const Navbar = () => {
                 </Link>
               );
             } else {
-              // href case (e.g., #featured)
+             
               return (
                 <a
                   key={name}
