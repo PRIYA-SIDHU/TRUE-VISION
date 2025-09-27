@@ -33,7 +33,7 @@ const AnimatedSection = ({ left, right }) => {
       "-=3"
     );
 
-    // After main timeline completes, add subtle infinite pulse bounce on whole section
+    
     tl.to(sectionRef.current, {
       scale: 1.03,
       duration: 1.2,

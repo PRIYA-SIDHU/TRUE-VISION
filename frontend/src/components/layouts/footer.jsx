@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./footer.module.css"; // Assuming you want custom tweaks
+import styles from "./footer.module.css"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Footer = () => {

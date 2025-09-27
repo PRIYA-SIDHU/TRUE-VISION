@@ -13,12 +13,13 @@ const CurrencyDetector = () => {
         <div className={styles.left}>
           <h1 className={styles.bigTitle}>Currency Detector</h1>
           <div className={styles.textColumn}>
-            <span className={styles.highlight}>
-              Take your skills further with code challenges and project tutorials.
-            </span>
+            
             <p>
-              Apply what you learn to real-world problems with hands-on challenges
-              designed to reinforce your understanding and grow your practical coding ability.
+              Experience instant currency detection simply by pressing a button.
+Using modern tools like OpenCV and TensorFlow.js, the system identifies different currency notes in real time.
+Detected notes are highlighted with bounding boxes and labels on your screen.
+Enjoy interactive feedback as the camera feed updates live to show recognized currencies.
+No installation needed—just use this website for fast, seamless currency recognition.
             </p>
             <button
               className={styles.ctaButton}
